@@ -107,27 +107,18 @@ Pada percobaan yang kami lakukan, Teknik Preprocessing yang digunakan adalah Res
 ## Analisis Masing-Masing Percobaan
 **Analisis Hasil:**
 Analisis Akurasi Berdasarkan Preprocessing:
-1.	Percobaan Pertama:
-o	Preprocessing: Resize, Convert to Gray, Thresholding, Edge Detection, Normalization.
-o	Accuracy: 0.29
-2.	Percobaan Kedua:
-o	Preprocessing: Resize, Convert to Gray, Thresholding, Edge Detection.
-o	Accuracy: 0.17
-3.	Percobaan Ketiga:
+1.	Percobaan
 o	Preprocessing: Resize, Convert to Gray, Edge Detection Normalization.
 o	Accuracy: 0.58
 
-
-- Percobaan Pertama menghasilkan akurasi yang baik, namun sedikit lebih rendah dari percobaan ketiga karena nilai piksel yang tidak terkontrol dapat mempengaruhi proses pelatihan model.
-- Percobaan Kedua dengan hanya beberapa tahapan preprocessing memberikan akurasi terendah, menunjukkan pentingnya thresholding dan deteksi tepi dalam meningkatkan fokus pada fitur penting dalam gambar.
-- Percobaan Ketiga dengan semua tahapan preprocessing memberikan akurasi tertinggi, menunjukkan bahwa kombinasi dari semua langkah tersebut membantu model untuk lebih baik dalam mengenali tanaman herbal.
+Setelah melakukan percobaan dengan proses-proses yang ditentukan, didapatkan informasi dari Percobaan bahwa dengan semua tahapan preprocessing memberikan akurasi tertinggi, menunjukkan bahwa kombinasi dari semua langkah tersebut membantu model untuk lebih baik dalam mengenali tanaman herbal.
 
 ## Modeling
 Untuk proses hyperparameter tuning pada model, dilakukan dengan membagi data yang sudah dipilih fiturnya menjadi data training. Data tersebut dinormalisasi menggunakan min-max scaling agar setiap fitur memiliki skala yang sama, sehingga model machine learning dapat lebih efektif dalam belajar dari data. lalu menggunakan model berbeda: CNN, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), dan Random Forest. Setiap model dilatih menggunakan data latih yang dinormalisasi, dan kemudian prediksinya diuji menggunakan data uji yang juga dinormalisasi.
 
 ## Evaluation
  
-Hasil pengujian yang dilakukan pada model CNN menunjukkan adanya perbedaan signifikan dalam akurasi antara dataset original yang belum melalui proses preprocessing dan dataset yang telah mengalami tahap preprocessing. Dalam dataset original, akurasi yang diperoleh sebesar 27% menunjukkan keterbatasan dalam kemampuan model untuk mengenali pola dan fitur yang ada dalam data yang belum diolah. 
+Hasil pengujian yang dilakukan pada model CNN menunjukkan adanya perbedaan signifikan dalam akurasi antara dataset original yang belum melalui proses preprocessing dan dataset yang telah mengalami tahap preprocessing. Dalam dataset original, akurasi yang diperoleh sebesar 58% menunjukkan keterbatasan dalam kemampuan model untuk mengenali pola dan fitur yang ada dalam data yang belum diolah. 
 
 Terdapat beberapa faktor yang dapat menyebabkan hasil akurasi rendah pada dataset original. Pertama, dataset original belum melalui tahap preprocessing, yang berarti data tersebut belum mendapatkan perlakuan atau pemrosesan apapun sebelumnya. Hal ini dapat mengakibatkan keberadaan noise atau ketidakseimbangan kelas dalam data, yang mempersulit tugas model dalam mengenali pola yang relevan.
 
