@@ -73,17 +73,13 @@ Berdasarkan hasil "data loading" didapatkan beberapa informasi, yaitu :
     e. stachytarpheta-jamaicensis : 100
 
 ## Sampel Data 
-- Sampel Data pada percobaan 1,2,3,4, dan 5 diambil dari setiap sub-folder dataset. Masing-masing dataset akan diambil 1 buah citra sebagai perwakilan sub-folder untuk memastikan operasi-operasi yang akan dilakukan berhasil diimplementasikan ke semua citra.
+- Sampel Data pada percobaan untuk projek analisis tanaman herbal ini diambil dari setiap sub-folder dataset. Masing-masing dataset akan diambil 1 buah citra sebagai perwakilan dari 7 sub-folder untuk memastikan operasi-operasi yang akan dilakukan berhasil diimplementasikan ke semua citra.
 
 ## Distribusi Data
 Berdasarkan teknik pengambilan citra pada dataset dengan konsep penelusuran untuk setiap sub-folder, didapatkan informasi berupa distribusi data dan total data untuk setiap sub-folder, yaitu :
 Data Distribution:  {'averrhoa-carambola': 108, 'cordyline-fruticosa': 120, 'paedaria-tomentosa': 100, 'piper-betle': 105, 'piper-sarmentosum': , 'polyscias-fruticosa': 110, 'stachytarpheta-jamaicensis': 100}
 
 ## Data Preparation
-
-## Image Augmentation
-
-Proses Augmentasi gambar pada project analisis tanaman herbal ini menggunakan kombinasi Pada percobaan 2, Teknik Augmentasi yang digunakan adalah Horizontal Flip, Vertical Flip, dan Change Brightness.
 
 
 ## Preprocessing
