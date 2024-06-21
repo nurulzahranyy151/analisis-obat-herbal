@@ -120,7 +120,7 @@ Untuk proses hyperparameter tuning pada model, dilakukan dengan membagi data yan
 
 ## Evaluation
  
-Hasil pengujian yang dilakukan pada model CNN menunjukkan adanya perbedaan signifikan dalam akurasi antara dataset original yang belum melalui proses preprocessing dan dataset yang telah mengalami tahap preprocessing. Dalam dataset original, akurasi yang diperoleh sebesar 58% menunjukkan keterbatasan dalam kemampuan model untuk mengenali pola dan fitur yang ada dalam data yang belum diolah. 
+Hasil pengujian yang dilakukan pada model CNN menunjukkan adanya perbedaan signifikan dalam akurasi antara dataset original yang belum melalui proses preprocessing dan dataset yang telah mengalami tahap preprocessing. Dalam dataset original, akurasi yang diperoleh sebesar 26% menunjukkan keterbatasan dalam kemampuan model untuk mengenali pola dan fitur yang ada dalam data yang belum diolah. 
 
 Terdapat beberapa faktor yang dapat menyebabkan hasil akurasi rendah pada dataset original. Pertama, dataset original belum melalui tahap preprocessing, yang berarti data tersebut belum mendapatkan perlakuan atau pemrosesan apapun sebelumnya. Hal ini dapat mengakibatkan keberadaan noise atau ketidakseimbangan kelas dalam data, yang mempersulit tugas model dalam mengenali pola yang relevan.
 
