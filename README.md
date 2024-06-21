@@ -83,7 +83,8 @@ Data Distribution:  {'averrhoa-carambola': 108, 'cordyline-fruticosa': 120, 'pae
 
 
 ## Preprocessing
-    Pada percobaan yang kami lakukan, Teknik Augmentasi yang digunakan adalah Resizing, Ubah Greyscale, Thresholding, Noise Reduction, Deteksi Tepi, Normalisasi
+
+Pada percobaan yang kami lakukan, Teknik Preprocessing yang digunakan adalah Resizing, Ubah Greyscale, Thresholding, Noise Reduction, Deteksi Tepi, Normalisasi
 
 # Tahapan Preprocessing
 
