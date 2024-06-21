@@ -34,7 +34,9 @@ Pemilihan topik ini didasarkan pada kebutuhan untuk mendukung pengobatan tradisi
 
 ## Data Understanding
 
-Pada Project Analisis Tanaman Herbal ini digunakan kumpulan data (dataset) berupa gambar dari berbagai macam tanaman herbal yang diambil dari situs www.kaggle.com kemudian di dalamnya terdapat 7 label dengan total data 710. https://www.kaggle.com/datasets/trientran/oriental-medicinal-herb-images?select=Archive
+Pada Project Analisis Tanaman Herbal ini digunakan kumpulan data (dataset) berupa gambar dari berbagai macam tanaman herbal yang diambil dari situs www.kaggle.com kemudian di dalamnya terdapat 7 label dengan total data 710. 
+
+LINK : https://www.kaggle.com/datasets/trientran/oriental-medicinal-herb-images?select=Archive
 
 ## Data Loading
 
