@@ -80,8 +80,6 @@ Berdasarkan teknik pengambilan citra pada dataset dengan konsep penelusuran untu
 Data Distribution:  {'averrhoa-carambola': 108, 'cordyline-fruticosa': 120, 'paedaria-tomentosa': 100, 'piper-betle': 105, 'piper-sarmentosum': , 'polyscias-fruticosa': 110, 'stachytarpheta-jamaicensis': 100}
 
 ## Data Preparation
-
-
 ## Preprocessing
 
 Pada percobaan yang kami lakukan, Teknik Preprocessing yang digunakan adalah Resizing, Ubah Greyscale, Thresholding, Noise Reduction, Deteksi Tepi, Normalisasi
@@ -108,8 +106,10 @@ Pada percobaan yang kami lakukan, Teknik Preprocessing yang digunakan adalah Res
 **Analisis Hasil:**
 Analisis Akurasi Berdasarkan Preprocessing:
 1.	Percobaan
-o	Preprocessing: Resize, Convert to Gray, Edge Detection Normalization.
-o	Accuracy: 0.58
+
+  	 Preprocessing: Resize, Convert to Gray, Edge Detection Normalization.
+  	
+  	 Accuracy: 0.58
 
 Setelah melakukan percobaan dengan proses-proses yang ditentukan, didapatkan informasi dari Percobaan bahwa dengan semua tahapan preprocessing memberikan akurasi tertinggi, menunjukkan bahwa kombinasi dari semua langkah tersebut membantu model untuk lebih baik dalam mengenali tanaman herbal.
 
